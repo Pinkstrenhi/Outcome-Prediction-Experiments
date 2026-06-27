@@ -1,0 +1,29 @@
+league;split;classifier;parameters;testAccuracy2024
+LCK;Spring;DT;{'criterion': 'entropy', 'max_depth': 5, 'random_state': 42, 'splitter': 'best'};0.7725321888412017
+LCK;Spring;RF;{'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 2};0.8197424892703863
+LCK;Spring;LGBM;{'learning_rate': 0.1, 'n_estimators': 50, 'num_leaves': 31, 'random_state': 42};0.8175965665236051
+LCK;Spring;MLP;{'activation': 'identity', 'hidden_layer_sizes': (50, 50), 'learning_rate': 'adaptive', 'solver': 'adam'};0.8347639484978541
+LCK;Summer;DT;{'criterion': 'entropy', 'max_depth': 5, 'random_state': 42, 'splitter': 'best'};0.7749469214437368
+LCK;Summer;RF;{'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10};0.8174097664543525
+LCK;Summer;LGBM;{'learning_rate': 0.1, 'n_estimators': 50, 'num_leaves': 31, 'random_state': 42};0.8174097664543525
+LCK;Summer;MLP;{'activation': 'logistic', 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'solver': 'adam'};0.832271762208068
+LCS;Spring;DT;{'criterion': 'gini', 'max_depth': 5, 'random_state': 42, 'splitter': 'random'};0.7375
+LCS;Spring;RF;{'criterion': 'entropy', 'max_depth': 30, 'min_samples_split': 10};0.8
+LCS;Spring;LGBM;{'learning_rate': 0.1, 'n_estimators': 50, 'num_leaves': 31, 'random_state': 42};0.7708333333333334
+LCS;Spring;MLP;{'activation': 'tanh', 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'solver': 'adam'};0.7875
+LCS;Summer;DT;{'criterion': 'gini', 'max_depth': 5, 'random_state': 42, 'splitter': 'random'};0.8071428571428572
+LCS;Summer;RF;{'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 10};0.7892857142857143
+LCS;Summer;LGBM;{'learning_rate': 0.01, 'n_estimators': 200, 'num_leaves': 31, 'random_state': 42};0.7857142857142857
+LCS;Summer;MLP;{'activation': 'logistic', 'hidden_layer_sizes': (50,), 'learning_rate': 'invscaling', 'solver': 'adam'};0.8035714285714286
+LEC;Spring;DT;{'criterion': 'gini', 'max_depth': None, 'random_state': 42, 'splitter': 'random'};0.77
+LEC;Spring;RF;{'criterion': 'entropy', 'max_depth': 20, 'min_samples_split': 10};0.855
+LEC;Spring;LGBM;{'learning_rate': 0.1, 'n_estimators': 50, 'num_leaves': 31, 'random_state': 42};0.85
+LEC;Spring;MLP;{'activation': 'logistic', 'hidden_layer_sizes': (50,), 'learning_rate': 'constant', 'solver': 'adam'};0.785
+LEC;Summer;DT;{'criterion': 'gini', 'max_depth': 5, 'random_state': 42, 'splitter': 'random'};0.705
+LEC;Summer;RF;{'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 10};0.74
+LEC;Summer;LGBM;{'learning_rate': 0.01, 'n_estimators': 100, 'num_leaves': 31, 'random_state': 42};0.74
+LEC;Summer;MLP;{'activation': 'logistic', 'hidden_layer_sizes': (100,), 'learning_rate': 'adaptive', 'solver': 'adam'};0.67
+LEC;Winter;DT;{'criterion': 'entropy', 'max_depth': 5, 'random_state': 42, 'splitter': 'best'};0.625
+LEC;Winter;RF;{'criterion': 'entropy', 'max_depth': 30, 'min_samples_split': 15};0.725
+LEC;Winter;LGBM;{'learning_rate': 0.1, 'n_estimators': 50, 'num_leaves': 31, 'random_state': 42};0.695
+LEC;Winter;MLP;{'activation': 'identity', 'hidden_layer_sizes': (100,), 'learning_rate': 'invscaling', 'solver': 'adam'};0.715
