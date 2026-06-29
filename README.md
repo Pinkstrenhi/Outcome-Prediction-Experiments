@@ -39,7 +39,7 @@ Contains the accuracy results obtained using a feature set based on the methodol
 
 ### `FeaturesCorrelation.csv`
 
-Presents the correlation between the features of Oracle's Elixir dataset. 
+Presents the Pearson correlation coefficients between the features of the Oracle's Elixir dataset. 
 
 ## Notes
 
