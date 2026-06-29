@@ -37,6 +37,10 @@ Contains the accuracy results obtained using a feature set derived from prior li
 
 Contains the accuracy results obtained using a feature set based on the methodology proposed in the closest related work.
 
+### `FeaturesCorrelation.csv`
+
+Presents the correlation between the features of Oracle's Elixir dataset. 
+
 ## Notes
 
 * All feature sets were implemented to ensure a fair comparison under the same experimental conditions.
